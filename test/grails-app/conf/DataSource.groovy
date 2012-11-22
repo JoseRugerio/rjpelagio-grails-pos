@@ -38,7 +38,7 @@ environments {
             password = ""
         }
         //        hibernate { show_sql = true }
-        //            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
+        //            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000"asdasddsdasdsa
     }
     test {
         dataSource {
