@@ -23,6 +23,7 @@
           <li><g:link controller="status" action="list">Status</g:link></li>
           <li><g:link controller="statusType" action="list">Status Type</g:link></li>
           <li><g:link controller="uom" action="list">UOM</g:link></li>
+          <li><g:link controller="uom" action="conversionList">UOM Conversion</g:link></li>
         </ul>
     </li>
   </ul>
