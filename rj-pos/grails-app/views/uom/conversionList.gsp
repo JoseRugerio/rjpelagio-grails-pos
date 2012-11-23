@@ -61,8 +61,9 @@
 					<label for="conversionFactor"> 
 						<g:message code="general.FromDate" default="From Date" /> 
 					</label>
-				<calendar:datePicker name="date" defaultValue="${new Date()}"/>
+				<calendar:datePicker name="date" defaultValue=""/>
 				</div>
+
 			</g:form>
 		</div>
 	</body>
