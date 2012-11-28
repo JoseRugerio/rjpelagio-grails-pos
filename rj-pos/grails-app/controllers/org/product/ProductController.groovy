@@ -36,7 +36,7 @@ class ProductController {
             [productInstance: productInstance, categoryInstance : categoryInstance])
             return
         }
-        productCategoryService.insertProductCategoryClass(params, productInstance.id, categoryInstance);
+        productCategoryService.insertProductCategoryClass(productInstance.id, categoryInstance);
 
         flash.message = message(code: 'default.created.message',
         args: [message(code: 'product.label', default: 'Product'), productInstance.productCode])

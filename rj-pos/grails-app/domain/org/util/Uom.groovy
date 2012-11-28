@@ -13,6 +13,6 @@ class Uom {
     }
 
     String toString() {
-        return this.description;
+        return this.description + " - " + this.abbr;
     }
 }
