@@ -24,7 +24,7 @@ class ProductCategoryService {
     }
 
     @Transactional
-    def insertProductCategoryClass(params, productId, category){
+    def insertProductCategoryClass(productId, category){
         log.info("ProductCategoryService : Entering ProductCategoryService.insertProductCategoryClass");
         def product = Product.get(productId);
         if (product != null){

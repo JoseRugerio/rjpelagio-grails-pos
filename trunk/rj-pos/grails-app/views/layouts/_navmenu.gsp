@@ -12,7 +12,7 @@
             <ul>
               <li><g:link controller="product" action="list">Product</g:link></li>
               <li><g:link controller="productCategory" action="list">Product Category</g:link></li>
-              <li><g:link controller="periodType" action="list">Product Type</g:link></li>
+              <li><g:link controller="productUomConversion" action="list">Product Unit</g:link></li>
             </ul>
         </li>
         <li><g:link controller="product" action="reports">Reports</g:link>
@@ -23,7 +23,7 @@
           <li><g:link controller="status" action="list">Status</g:link></li>
           <li><g:link controller="statusType" action="list">Status Type</g:link></li>
           <li><g:link controller="uom" action="list">UOM</g:link></li>
-          <li><g:link controller="uom" action="conversionList">UOM Conversion</g:link></li>
+          
         </ul>
     </li>
   </ul>

@@ -20,7 +20,7 @@ class ProductFeature {
 
     static mapping = {
         product column: "product_id"
-        picture column: "picture", sqlType: "blob"
+        picture sqlType: "blob"
         version false
     }
 }
